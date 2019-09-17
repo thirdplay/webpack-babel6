@@ -1,0 +1,23 @@
+{
+  "name": "webpack-dev-server-babel6",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "thirdplay",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^6.2.2",
+    "eslint-config-google": "^0.13.0",
+    "jquery": "^3.4.1",
+    "underscore": "^1.9.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
